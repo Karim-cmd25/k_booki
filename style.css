@@ -1,4 +1,26 @@
 /****** General ***********/
+
+body {
+
+max-width : 1440px;
+display: flex;
+margin: auto;
+flex-direction: column;
+
+
+}
+
+
+.link-article {
+
+flex-basis: 30%;
+flex-grow: 1;
+flex-shrink: 1;
+
+}
+
+
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -232,9 +254,10 @@ a {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 60%;
-    height: 10%;
-     flex-wrap: nowrap;
+   flex-basis: 65%;
+   flex-grow: 1;
+   flex-shrink: 1;
+    
     
 }
     
@@ -242,7 +265,7 @@ a {
 
 
     
-}
+
 
 .hebergements-title {
 
@@ -255,6 +278,11 @@ a {
 }
 
 
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .hebergements-cards .card {
 
@@ -263,8 +291,6 @@ a {
     flex-wrap: nowrap;
     flex-direction: column;
    
-
-
 
     
 }
