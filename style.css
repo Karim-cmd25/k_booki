@@ -431,7 +431,7 @@ flex-direction: column;
 
 display: flex;
 justify-content: space-between;
-padding: 60px;
+padding: 100px;
 
 
 }
@@ -448,11 +448,25 @@ padding: 60px;
 
 }
    
+/* FOOTER */
+.footer-container {
+display: flex;
+justify-content: space-between;
+padding-left: 80px;
+padding-right: 80px;
+padding-bottom: 20px;
+
+}
 
 
 
+footer {
 
-
+    background-color: lightgrey;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
 
 
 
