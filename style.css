@@ -351,6 +351,12 @@ body {
       
     }
 
+    .hebergements h2 {
+
+
+        padding-left: 30px;
+    }
+
     
     
     
@@ -451,10 +457,14 @@ body {
        width: 270px;
        border-radius: 20px;
        
-       
     
     }
        
+
+
+
+
+
     /* FOOTER */
     .footer-container {
     display: flex;
