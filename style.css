@@ -12,16 +12,28 @@ body {
     
     
     .link-article {
-    
-    flex-basis: 30%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-    
-    
+
+        flex-basis: 30%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        
+
     }
+
+
+    .fond:hover {
+
+border-top: #0065FC 2px solid;
+color: #0065FC;
+
+    }
+    
+       
+    
+    
     
     .link-maison {
     
@@ -266,6 +278,7 @@ body {
     
        justify-content: flex-start;
       display: flex;
+     
       
     }
         
@@ -390,11 +403,7 @@ body {
     .populaires-cards .card {
         
         display: flex;
-        flex-wrap: nowrap;
-        flex-basis: 20%;
-       flex-grow: 1;
-       flex-shrink: 1;
-       max-height: 65%;
+        margin-bottom: 20px;
     }
     
     
@@ -484,6 +493,12 @@ body {
         margin-right: 80px;
         
     }
+
+   ul {
+
+    list-style: none;
+    padding: 0px;
+   }
     
     
     
