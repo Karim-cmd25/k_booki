@@ -549,7 +549,8 @@ margin-left: 15px;
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
+       margin-top: 50px;
+       display: flex;
     }
 
     .populaires-cards {
@@ -570,7 +571,27 @@ margin-left: 15px;
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .populaires .card {
+
+    height: 67%;
+    width : 100%
+
+    }
+
+    .populaires-cards .card {
+
+        margin-left: 0px;
+    }
     
+    .populaires-cards img { 
+        height: 113px;
+        width: 35%;
+
+
+    }
+
+
 
     /*activités */
 
@@ -586,10 +607,15 @@ margin-left: 15px;
     
         .activities .card {
 
-            margin: 8px;
+            margin: 10px;
             
             }
             
+            .activités {
+        margin-left: 0px;
+        margin-right: 0px;
+
+            }
 
 
 
