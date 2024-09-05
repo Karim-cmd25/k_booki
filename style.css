@@ -52,11 +52,6 @@ color: #0065FC;
         }
     
     
-    
-    
-    
-    
-    
     * {
         font-family: 'Raleway', sans-serif;
     }
@@ -108,7 +103,7 @@ color: #0065FC;
         font-size: 1rem;
     
     }
-    .barre bouton {
+    .barre button {
     
        border: 1px solid gray ; 
        background-color: blue;
@@ -638,6 +633,27 @@ padding-top: 10px;
         margin-right: 0px;
 
             }
+
+            .titree h1 {
+
+                font-size: 20px;
+                padding-left: 0px;
+                margin-top: 50px;
+            }
+
+/* FOOTER */
+
+.footer-container {
+
+font-size: 14px;
+
+
+
+}
+
+
+
+
 
 
            
