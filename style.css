@@ -449,7 +449,7 @@ color: #0065FC;
     .populaires-cards {
         
         flex-direction: column;
-        padding: 40 px;
+        padding: 40px;
         display: flex;
     }
         
@@ -484,7 +484,7 @@ color: #0065FC;
 
     .titree h1 {
 
-flex-direction: colum;
+
 font-size: 20px;
 margin-left: 60px;
 margin-top: 40px;
