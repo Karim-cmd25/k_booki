@@ -471,38 +471,41 @@ body {
     
     /* ACTIVITES*/
     
-    .activités {
-    
+    .activites {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 30px;
-   
     
-    
+    margin-top: 20px;
+    margin-bottom: 40px;
+    flex-direction: column;
+    gap: 30px;
+    }
+    .activities {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .activitie {
+        flex-basis: 22%;
     }
     
     
-.activités img{
+.activitie img{
 
 object-fit: cover;
 height: 400px;
-width: 270px;
+width: 100%;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
     
 
 }
 
-.titree h1 {
+.activites h1 {
 
 
 font-size: 20px;
-margin-left: 60px;
-margin-top: 60px;
-padding-left: 30px;
+
 
 
 }
@@ -540,10 +543,20 @@ padding-bottom: 20px;
 footer {
 
     background-color: lightgrey;
-    margin-left: 49px;
-    margin-right: 49px;
+    margin-left: 29px;
+    margin-right: 29px;
     
 }
+
+.footer-links {
+
+display: flex;
+flex-basis: 30%;
+flex-direction: column;
+
+}
+
+.footer h3 {}
 
 ul {
 
