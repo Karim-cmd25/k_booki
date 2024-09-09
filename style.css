@@ -98,6 +98,7 @@ body {
     
     .barre {
         display: flex;
+        padding-top: 10px;
     
     }
     
@@ -108,18 +109,21 @@ body {
         border-radius: 9px 0px 0px 9px;
         color: black;
         font-size: 1rem;
-    
+        height: 10px;
     }
+
     .barre button {
     
-       border: 1px solid gray ; 
+
        background-color: blue;
        height: 42px;
        color: white;
        font-size: 0.9rem;
        font-weight: bold;
        padding: 0 1.2rem;
-       border-radius: 0px 6px 6px 0px;
+       border-radius: 0px 7px 7px 0px;
+       margin: 0px;
+       border:none
     }
     
     .barre input::placeholder {
@@ -127,20 +131,30 @@ body {
     color: var(--black);
     font-size: 0.9rem;
     font-weight: bold;
+   
+    }
+    .barre input {
+
+        margin: 0px;
+        height: 36px;
+        padding-left: 10px;
     }
     
     
     .titre {
-    
         padding : 0 2rem;
     }
     
+    .titre h1 {
+        font-size: 30px;
+    }
     
      nav a {
-    
         padding: 2rem;
      }
     
+
+
     
     /* filtres de recherches*/
     
@@ -151,28 +165,28 @@ body {
         align-items: center;
         justify-content: flex-start;
         align-content: space-around;
+        margin-top: 10px;
     
     }
     
     
-    .filter-list h1 {
-    
-    
+    .filter-list h2 {
         font-size: 20px;
     }
     
     
     .fas.fa-money-bill-wave  {
     
-        color: #0065FC;
+    color: #0065FC;
     font-weight:bold;
-    
+    margin-top: 10px;
+    margin-left: 10px;
     
     }
     
     .filter {
     
-        border: 1px solid grey;
+        border: 2px solid lightgrey;
         border-radius: 2rem;
         margin-left: 10px;
         height: 35px;
@@ -182,30 +196,24 @@ body {
     .filter-list span {
     
         font-weight: bold;
-        padding: 1.5rem;
+        padding: 7px;
+        margin-top: 10px;
        
     }
 
     .filter  .fa-solid{
-    
-        
         margin-left: 10px;
+        margin-top: 10px;
     
     }
 
     .filter:hover {
-
-        
+ 
         background-color: lightblue;
         cursor: pointer;
     
         }
-        
-
-
-
-
-    
+            
     /*MESSSAGE INFO*/
     
     .message-info {
@@ -213,24 +221,21 @@ body {
     display: flex;
     align-items: center;
     margin-right: 1rem;
+    padding-bottom: 15px;
     }
     
     .message-info .fas {
     
         color: blue;
         border: 1px solid darkgrey;
-        
         border-radius: 30px;
         align-items: center;
         width: 2rem;
         height: 2rem;
         display: flex;
         justify-content: center;
-        
-    
+        margin-right: 10px;
     }
-    
-    
     
     
     /* contenants*/
