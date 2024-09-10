@@ -24,6 +24,8 @@ body {
     }
 
 
+/* activité et hébergement dans le header */
+
     .fond:hover {
 
     border-top: #0065FC 2px solid;
@@ -88,8 +90,6 @@ body {
 
         width: 100px;
         height: 30px;
-        
-
     }
 
 
@@ -736,6 +736,91 @@ margin-right: 52px;
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+/* HEADER */
+.fond:hover {
+
+    border-bottom: #0065FC 2px solid;
+    color: #0065FC;
+    border-top: none;
+
+    }
+
+
+    #logo {
+
+        padding-left: 200px;
+        padding-top: 20px;
+    }
+
+
+    .barre {
+
+justify-content: center;
+padding-bottom: 15px;
+
+    }
+
+    .barre button {
+width: 50px;
+height: 60px;
+
+    }
+
+
+    .barre button ::submit {
+
+        text
+    }
+
+
+
+
+    .barre input {
+
+        width: 70%; 
+        height: 55px;
+        
+    }
+
+   
+    .barre i {
+
+        height: 30px;
+    }
+    
+    .titre h1 {
+
+        padding-left: 20px;
+    }
+
+    .titre p {
+
+        padding-left: 20px;
+        padding-bottom: 15px;
+    }
+ 
+    nav {
+    
+      
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    nav a {
+
+        padding: 40px;
+        margin-left: 40px;
+        justify-content: space-between;
+    }
+
+
+
+
+
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -746,6 +831,12 @@ margin-right: 52px;
         flex-wrap: wrap;
         display: flex;
     }
+
+
+
+
+
+
 
 
 /* populaires */
@@ -850,6 +941,6 @@ padding-top: 10px;
 font-size: 14px;
 
 }
-    /* ... */
+    
 }
 
