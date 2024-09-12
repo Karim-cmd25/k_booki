@@ -237,7 +237,15 @@ body {
         margin-right: 10px;
     }
     
-    
+    /* formulaire "rechercher */
+    .barre button i.fa-magnifying-glass {
+        display: none;
+    }
+
+
+
+
+
     /* contenants*/
     
     
@@ -607,6 +615,13 @@ padding: 0px;
     }
 
 
+
+    /* formulaire "rechercher */
+    .barre button i.fa-magnifying-glass {
+        display: none;
+    }
+
+
 /* populaires */
 
 
@@ -745,6 +760,21 @@ margin-right: 52px;
 
     }
 
+        }
+
+    .barre button i.fa-magnifying-glass {
+            display: inline;
+            background-color: #0065FC;
+        }
+
+
+       
+           
+
+    .barre button .text {
+                display: none;
+            }
+
 
     #logo {
 
@@ -762,11 +792,15 @@ padding-bottom: 15px;
 
     .barre-fa-magnifying-glass {
 
-        display: inline;
+        display: inline-block;
     }
-    .barre-submit{
-        display: none;
-    }
+
+    /* Masquer le texte du bouton sur mobile */
+
+    
+       
+
+
 
     .barre button {
     width: 50px;
@@ -776,10 +810,6 @@ padding-bottom: 15px;
 
 
     
-
-
-
-
     .barre input {
 
         width: 70%; 
@@ -838,14 +868,14 @@ padding-bottom: 15px;
 
     nav a {
 
-        padding: 40px;
+        
         margin-left: 40px;
         justify-content: space-between;
     }
 
 
     .hebergements-and-populaires {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .hebergements {
@@ -858,7 +888,7 @@ padding-bottom: 15px;
 
         margin-bottom: 30px;
         max-width: 100%;
-        margin-right: 30px;
+        margin-right: 20px;
 
     }
     .hebergements-cards .card-subtitle {
@@ -894,9 +924,10 @@ padding-bottom: 15px;
 
     .populaires {
         width: 100%;
-       margin-top: 50px;
+       
        display: flex;
        flex-direction: column;
+       margin-bottom: 50px;
     }
 
     .populaires-cards {
@@ -927,10 +958,10 @@ padding-bottom: 15px;
 
     .populaires-cards .card {
 
-        margin-left: 0px;
-        width: 420px;
+       
+        width: 390px;
         height: 200px;
-        margin-left: 20px;
+        
         
         
     
@@ -990,6 +1021,7 @@ padding-top: 40px;
 .activities .card {
 
     padding: 0px;
+    margin-left: 30px;
 }
 
 
@@ -1005,14 +1037,29 @@ padding-top: 40px;
         padding-bottom: 20px;
         padding-left: 20px;
     }
+    .activitie img {
+
+        height: 160px;
+    }
+
 
 /* FOOTER */
 
 .footer-container {
 
 font-size: 14px;
+display: block;
+padding-left: 20px; ;
+padding-right: 0px;
+padding-bottom: 0px ;
 
 }
+.footer {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
     
 }
 
