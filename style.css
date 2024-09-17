@@ -685,6 +685,14 @@ ul {
   .filter-list {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+  }
+  .filter .fas {
+    font-size: 18px;
+  }
+  .filter .fa-solid {
+    font-size: 18px;
   }
 
   .filter {
@@ -692,6 +700,7 @@ ul {
     width: 40%;
     margin-bottom: 20px;
     margin-left: 30px;
+    padding: 0px;
   }
 
   .filter-list span {
@@ -792,7 +801,7 @@ ul {
   }
 
   .populaires-cards .card {
-    width: 380px;
+    width: 370px;
     height: 200px;
   }
 
