@@ -29,7 +29,6 @@ button {
   display: none; /* Cacher par défaut */
   background-color: transparent; /* Arrière-plan transparent */
   border: none; /* Pas de bordure */
-  padding: 10px; /* Ajouter du padding pour correspondre à l'input */
   font-size: 1.5rem; /* Ajuster la taille de l'icône */
   color: #000; /* Couleur de l'icône (changer selon le design) */
   vertical-align: middle; /* Aligner avec l'input */
@@ -41,7 +40,8 @@ button {
   background-color: #007bff; /* Bleu pour le bouton desktop */
   color: white;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   border: none;
   font-size: 1rem;
   cursor: pointer;
@@ -514,7 +514,6 @@ ul {
 
   .populaires {
     width: 100%;
-    margin-top: 50px;
     display: flex;
   }
 
@@ -602,12 +601,38 @@ ul {
   /* HEADER */
   .fond:hover {
     border-bottom: #0065fc 1px solid;
+
     color: #0065fc;
     border-top: none;
   }
 
+  .barre {
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement */
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .titre P {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .titre h1 {
+    font-size: 25px;
+  }
+
   .btn-desktop {
     display: none; /* Cacher le bouton avec texte */
+  }
+
+  .btn-mobile i.fa-magnifying-glass {
+    color: white; /* Couleur bleue */
+    background-color: #0065fc;
+    font-size: 1.3rem; /* Ajuster la taille de l'icône si nécessaire */
+
+    border-radius: 15px;
+    width: 15px;
+    height: 20px;
   }
 
   .btn-mobile {
@@ -622,14 +647,26 @@ ul {
     margin-left: 15px;
     height: 100px;
   }
+  .message-info .fas {
+    color: blue;
+    border: 1px solid darkgrey;
+    border-radius: 30px;
+    align-items: center;
+    width: 2.2rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
 
   .hebergements-cards {
     background-color: white;
   }
 
   #logo {
-    display: flex;
     margin-bottom: 30px;
+    margin: 0px;
+    padding-bottom: 30px;
   }
 
   .afficher {
@@ -639,14 +676,8 @@ ul {
     background-color: white;
   }
 
-  #logo {
-    padding-left: 250px;
-    padding-top: 20px;
-  }
-
   .barre {
     justify-content: center;
-    padding-bottom: 15px;
   }
 
   /* Masquer le texte du bouton sur mobile */
@@ -685,8 +716,8 @@ ul {
   }
 
   nav a {
-    margin-left: 40px;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .hebergements-and-populaires {
