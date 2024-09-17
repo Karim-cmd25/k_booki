@@ -16,6 +16,38 @@ body {
   flex-wrap: wrap;
 }
 
+/* Style général pour enlever les styles par défaut des boutons */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Style du bouton mobile */
+.btn-mobile {
+  display: none; /* Cacher par défaut */
+  background-color: transparent; /* Arrière-plan transparent */
+  border: none; /* Pas de bordure */
+  padding: 10px; /* Ajouter du padding pour correspondre à l'input */
+  font-size: 1.5rem; /* Ajuster la taille de l'icône */
+  color: #000; /* Couleur de l'icône (changer selon le design) */
+  vertical-align: middle; /* Aligner avec l'input */
+}
+
+/* Style du bouton desktop */
+.btn-desktop {
+  display: inline-block;
+  background-color: #007bff; /* Bleu pour le bouton desktop */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  vertical-align: middle; /* Aligner avec l'input */
+}
+
 /* activité et hébergement dans le header */
 
 .fond:hover {
@@ -56,6 +88,14 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.glass-icon {
+  display: none; /* Cacher l'icône par défaut (desktop et tablette) */
+}
+
+.text {
+  display: inline; /* Afficher le texte par défaut sur desktop et tablette */
+}
+
 :root {
   --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
@@ -65,14 +105,6 @@ body {
 
 .fa-solid {
   color: var(--main-color);
-}
-
-.fa-solid fa-magnifying-glass {
-  visibility: hidden;
-}
-
-.loupe {
-  visibility: hidden;
 }
 
 nav {
@@ -106,18 +138,6 @@ nav {
   color: black;
   font-size: 1rem;
   height: 10px;
-}
-
-.barre button {
-  background-color: blue;
-  height: 42px;
-  color: white;
-  font-size: 0.9rem;
-  font-weight: bold;
-  padding: 0 1.2rem;
-  border-radius: 0px 7px 7px 0px;
-  margin: 0px;
-  border: none;
 }
 
 .barre input::placeholder {
@@ -217,9 +237,6 @@ nav {
 }
 
 /* formulaire "rechercher */
-.barre button i.fa-magnifying-glass {
-  display: none;
-}
 
 /* contenants*/
 
@@ -492,9 +509,6 @@ ul {
   }
 
   /* formulaire "rechercher */
-  .barre button i.fa-magnifying-glass {
-    display: none;
-  }
 
   /* populaires */
 
@@ -592,6 +606,14 @@ ul {
     border-top: none;
   }
 
+  .btn-desktop {
+    display: none; /* Cacher le bouton avec texte */
+  }
+
+  .btn-mobile {
+    display: flex;
+  }
+
   .filtre-column {
     margin-left: 20px;
   }
@@ -617,15 +639,6 @@ ul {
     background-color: white;
   }
 
-  .barre button i.fa-magnifying-glass {
-    display: inline;
-    background-color: #0065fc;
-  }
-
-  .barre button .text {
-    display: none;
-  }
-
   #logo {
     padding-left: 250px;
     padding-top: 20px;
@@ -637,28 +650,6 @@ ul {
   }
 
   /* Masquer le texte du bouton sur mobile */
-
-  .fa-solid fa-magnifying-glass {
-    visibility: visible;
-  }
-
-  .loupe {
-    visibility: visible;
-  }
-
-  .barre button {
-    width: 50px;
-    height: 60px;
-  }
-
-  .barre input {
-    width: 70%;
-    height: 55px;
-  }
-
-  .barre i {
-    height: 30px;
-  }
 
   .filter-list {
     flex-direction: row;
@@ -808,7 +799,7 @@ ul {
   }
 
   .activities .card {
-    margin: 10px;
+    margin-right: 30px;
   }
 
   .activités {
