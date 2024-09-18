@@ -61,9 +61,14 @@ button {
 /* activité et hébergement dans le header */
 
 .fond:hover {
-  border-top: #0065fc 2px solid;
+  border-top: #0065fc 1px solid;
   color: #0065fc;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 20px;
 }
+
 
 /* LOGO PROGRESSION POPULAIRES */
 
