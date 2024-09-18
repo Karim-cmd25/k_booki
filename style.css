@@ -625,6 +625,8 @@ ul {
     border-bottom: #0065fc 1px solid;
     border-top: none;
     color: #0065fc;
+    padding top: 10px;
+    padding-bottom: 0px;
   }
 
   .barre {
