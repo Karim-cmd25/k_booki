@@ -48,6 +48,16 @@ button {
   vertical-align: middle; /* Aligner avec l'input */
 }
 
+
+
+  .barre input {
+
+    border: 1px solid #ccc; /* Contour gris (2px d'épaisseur) */
+    height: 38px;
+  }
+  
+  
+
 /* activité et hébergement dans le header */
 
 .fond:hover {
@@ -178,7 +188,11 @@ nav {
   justify-content: flex-start;
   align-content: space-around;
   margin-top: 10px;
+  flex-wrap: nowrap;
 }
+
+
+
 
 .filter-list h2 {
   font-size: 20px;
@@ -514,6 +528,7 @@ ul {
   .populaires {
     width: 100%;
     display: flex;
+    margin-top: 40px;
   }
 
   .populaires-cards {
@@ -582,6 +597,14 @@ ul {
     padding-left: 0px;
     margin-top: 50px;
   }
+  .barre input {
+
+    border: 1px solid #ccc; /* Contour gris (2px d'épaisseur) */
+    height: 38px;
+    
+    
+  }
+   
 
   /* FOOTER */
 
@@ -609,6 +632,9 @@ ul {
     align-items: center; /* Aligne les éléments verticalement */
     margin: 0px;
     padding: 0px;
+  }
+  .barre input {
+    border-right: none;
   }
 
   .titre P {
@@ -640,6 +666,7 @@ ul {
   .filtre-column {
     margin-left: 20px;
   }
+
 
   .fa-info {
     margin-left: 15px;
