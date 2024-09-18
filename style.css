@@ -59,7 +59,6 @@ button {
 
 .evolution {
   display: flex;
-
   align-items: center; /* Centre verticalement les éléments */
   justify-content: space-between;
 }
@@ -601,9 +600,8 @@ ul {
   /* HEADER */
   .fond:hover {
     border-bottom: #0065fc 1px solid;
-
-    color: #0065fc;
     border-top: none;
+    color: #0065fc;
   }
 
   .barre {
@@ -678,6 +676,10 @@ ul {
 
   .barre {
     justify-content: center;
+    f
+  }
+  .barre input {
+    width: 60%;
   }
 
   /* Masquer le texte du bouton sur mobile */
