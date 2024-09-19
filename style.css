@@ -726,10 +726,10 @@ ul {
     justify-items: center;
   }
   .filter .fas {
-    font-size: 18px;
+    font-size: 12px;
   }
   .filter .fa-solid {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .filter {
@@ -817,15 +817,18 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  
   }
 
   .populaires-cards a {
-    width: 60%;
+    width: 100%;
     justify-content: space-between;
   }
 
   .populaires-cards .card-title {
     font-size: 20px;
+    
+    
   }
 
   .populaires-cards .card-subtitle {
@@ -840,6 +843,8 @@ ul {
   .populaires-cards .card {
     width: 370px;
     height: 200px;
+   
+    
   }
 
   .titree {
