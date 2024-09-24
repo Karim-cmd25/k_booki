@@ -40,8 +40,8 @@ button {
   background-color: #007bff; /* Bleu pour le bouton desktop */
   color: white;
   padding: 10px 20px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   border: none;
   font-size: 1rem;
   cursor: pointer;
@@ -157,6 +157,8 @@ nav {
 
 .filtre-column {
   display: flex;
+  margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 .barre i {
@@ -431,7 +433,7 @@ a {
 
 .populaires-cards .card {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 20px;
   margin-top: 20px;
@@ -546,6 +548,7 @@ ul {
   .filtre-column {
     flex-direction: column;
     display: flex;
+    
   }
 
   .hebergements {
