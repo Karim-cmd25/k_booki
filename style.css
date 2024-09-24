@@ -20,7 +20,7 @@ body {
 button {
   background: none;
   border: none;
-   padding: 0;
+  padding: 0;
   cursor: pointer;
 }
 
@@ -48,17 +48,10 @@ button {
   vertical-align: middle; /* Aligner avec l'input */
 }
 
-
-
-  .barre input {
-
-    border: 1px solid #ccc; /* Contour gris (2px d'épaisseur) */
-    height: 38px;
-    
-    
-  }
-  
-  
+.barre input {
+  border: 1px solid #ccc; /* Contour gris (2px d'épaisseur) */
+  height: 38px;
+}
 
 /* activité et hébergement dans le header */
 
@@ -66,17 +59,14 @@ button {
   border-top: #0065fc 2px solid;
   color: #0065fc;
   padding-top: 23px;
-  
-  
+
   margin-right: 20px;
 }
 
 .fond {
-
   padding-right: 20px;
   margin-right: 20px;
 }
-
 
 /* LOGO PROGRESSION POPULAIRES */
 
@@ -86,7 +76,7 @@ button {
   justify-content: space-between;
 }
 .evolution h1 {
-  font-size: 25px !important; 
+  font-size: 25px !important;
   padding-left: 20px;
 }
 
@@ -158,7 +148,7 @@ nav {
 .filtre-column {
   display: flex;
   margin-bottom: 15px;
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .barre i {
@@ -174,15 +164,13 @@ nav {
   color: var(--black);
   font-size: 0.9rem;
   font-weight: bold;
-
 }
 
 .barre input {
   margin: 0px;
-  
+
   padding-left: 10px;
   border: 1px solid var(--main-bg-color);
-  
 }
 
 .evolution {
@@ -200,10 +188,8 @@ nav {
 }
 
 .titre p {
-
   font-size: 16px;
 }
-
 
 nav {
   margin-top: 20px;
@@ -219,9 +205,6 @@ nav {
   margin-top: 10px;
   flex-wrap: nowrap;
 }
-
-
-
 
 .filter-list h2 {
   font-size: 20px;
@@ -515,7 +498,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
-  
+
   padding-bottom: 20px;
 }
 
@@ -548,7 +531,6 @@ ul {
   .filtre-column {
     flex-direction: column;
     display: flex;
-    
   }
 
   .hebergements {
@@ -632,13 +614,9 @@ ul {
     margin-top: 50px;
   }
   .barre input {
-
     border: 1px solid #ccc; /* Contour gris (2px d'épaisseur) */
     height: 38px;
-    
-    
   }
-   
 
   /* FOOTER */
 
@@ -659,16 +637,15 @@ ul {
     border-bottom: #0065fc 1px solid;
     border-top: none;
     color: #0065fc;
-    padding top: 10px;
+    padding-top: 10px;
     padding-bottom: 0px;
   }
 
   .fond {
-flex-basis: 50%;
-
-
+    flex-basis: 50%;
+    justify-content: center;
+    display: flex;
   }
-  
 
   .barre {
     display: flex;
@@ -691,7 +668,7 @@ flex-basis: 50%;
     font-size: 22px !important;
   }
   .hebergements h2 {
-    font-size: 18px ;
+    font-size: 18px;
     padding-top: 0px;
     margin-top: 0px;
   }
@@ -761,13 +738,10 @@ flex-basis: 50%;
 
   .barre {
     justify-content: center;
-
-    
   }
   .barre input {
     width: 60%;
     margin-right: -10px;
-    
   }
 
   /* Masquer le texte du bouton sur mobile */
@@ -775,11 +749,10 @@ flex-basis: 50%;
   .filter-list {
     flex-direction: row;
     flex-wrap: wrap;
-   
   }
   .filter .fas {
-   height: 20px;
-   width: 18px;
+    height: 20px;
+    width: 18px;
   }
   .filter .fa-solid {
     height: 20px;
@@ -814,22 +787,17 @@ flex-basis: 50%;
     flex-wrap: wrap;
     justify-content: center;
     font-size: 16px;
-    flex-direction: column;
   }
 
   nav a {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 2rem;
-    
   }
 
-
   .headeer {
-flex-basis: 100%;
-display: flex;
-
-
+    flex-basis: 100%;
+    display: flex;
   }
 
   .hebergements-and-populaires {
@@ -885,8 +853,6 @@ display: flex;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-  
   }
 
   .populaires-cards a {
@@ -896,10 +862,7 @@ display: flex;
 
   .populaires-cards .card-title {
     font-size: 16px;
-    
   }
-
- 
 
   .populaires-cards .card-subtitle {
     font-size: 16px;
@@ -910,10 +873,8 @@ display: flex;
     height: 70%;
     width: 90%;
     margin-left: 10px;
-    
   }
 
-  
   .titree {
     margin: 0px;
   }
@@ -931,12 +892,9 @@ display: flex;
     height: 160px;
   }
 
- 
-
   .card-title {
-    font-size: 16px; 
+    font-size: 16px;
   }
-  
 
   /*activités */
 
@@ -989,19 +947,16 @@ display: flex;
   .footer-container {
     font-size: 16px;
     display: block;
-    padding-left: none;
-    padding-right: none;
-    padding-bottom: none;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     margin: 0%;
   }
   .footer {
-    margin: none;
+    margin: 0px;
     padding: 0px;
   }
   .footer-container h3 {
-      font-size: 18px;
+    font-size: 18px;
   }
-
-
-  
 }
