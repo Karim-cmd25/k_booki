@@ -715,7 +715,7 @@ ul {
     border: 1px solid darkgrey;
     border-radius: 30px;
     align-items: center;
-    width: 3.5rem;
+    width: 2rem;
     height: 2rem;
     display: flex;
     justify-content: center;
@@ -820,6 +820,7 @@ ul {
     margin-bottom: 30px;
 
     margin-right: 20px;
+    max-width: 90%;
   }
   .hebergements-cards .card-subtitle {
     font-size: 14px;
@@ -927,8 +928,8 @@ ul {
   }
   .activities .card {
     padding: 0px;
-    margin-left: 30px;
-    width: 83%;
+    margin-left: 23px;
+    width: 88%;
   }
 
   .titree h1 {
